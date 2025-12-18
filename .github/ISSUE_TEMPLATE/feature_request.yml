@@ -1,0 +1,19 @@
+name: Feature request
+description: Propose an improvement to tooling or templates.
+labels: ["tooling", "discussion"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety / compatibility notes
+      description: Any breaking changes or risky defaults?
+    validations:
+      required: true
+
