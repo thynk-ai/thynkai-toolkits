@@ -1,0 +1,19 @@
+{
+  "name": "@thynkai/toolkits",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Creator & contributor tooling for ThynkAI.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm -ws run build",
+    "typecheck": "npm -ws run typecheck",
+    "ci": "npm -ws run ci"
+  }
+}
