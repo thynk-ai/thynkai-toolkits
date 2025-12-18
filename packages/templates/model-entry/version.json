@@ -1,0 +1,16 @@
+{
+  "modelId": "thynkai/your-model-id",
+  "version": "0.1.0",
+  "releasedAt": "2025-01-02T00:00:00.000Z",
+  "artifact": {
+    "uri": "https://example.com/artifacts/model.bin",
+    "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "sizeBytes": 0,
+    "builtWith": {
+      "framework": "TODO",
+      "runtime": "TODO",
+      "notes": "TODO"
+    }
+  },
+  "benchmarks": []
+}

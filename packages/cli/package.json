@@ -1,0 +1,21 @@
+{
+  "name": "@thynkai/toolkit-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ThynkAI CLI (scaffold, validate, digest, publish helpers).",
+  "license": "MIT",
+  "bin": {
+    "thynkai": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node dist/index.js --help > /dev/null",
+    "ci": "npm run typecheck && npm run build && npm run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}

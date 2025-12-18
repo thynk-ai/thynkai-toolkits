@@ -1,0 +1,17 @@
+{
+  "name": "@thynkai/validators-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Small local helpers for validator development.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "ci": "npm run typecheck && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}

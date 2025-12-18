@@ -1,0 +1,17 @@
+{
+  "id": "thynkai/your-model-id",
+  "name": "Your Model Name",
+  "modality": "text",
+  "description": "Short factual description.",
+  "owner": {
+    "contributorId": "contrib:your-id",
+    "displayName": "Your Name"
+  },
+  "createdAt": "2025-01-01T00:00:00.000Z",
+  "version": "0.1.0",
+  "tags": ["todo"],
+  "links": {
+    "repo": "https://github.com/thynkai/thynkai-models"
+  },
+  "license": "MIT"
+}
